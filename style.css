@@ -4,19 +4,19 @@
 }
 
 body{
-background-color: black;
+background-color: #B9B4C7;
 }
 
 /* Home section  which has the app name and nav bar. The styling is applied by id */
 
 #home {
-    background-color:  #483355;
+    background-color:  #5C5470;
     padding-bottom: 1cm;
     margin-left:-1cm;
     margin-right:-1cm;
     margin-top:-1cm;
-    padding-top: 2cm;
-    padding-bottom: 2cm;
+    padding-top: 1cm;
+    padding-bottom: 1.7cm;
    }
 
 /* Application name inside the home section. The styling is applied by tag name */
@@ -37,8 +37,8 @@ background-color: black;
   
 /* Navigation Bar Buttons */
   .topmenu {
-    color: lightgray;
-    background-color:   #483355;
+    color: whitesmoke;
+    background-color:   #5C5470;
     margin: 10px;
     padding: 10px;
     font-size: 20px;
@@ -92,7 +92,7 @@ button:hover {
 /* The calculator panel */
 .b{
     border-top-style: solid;
-    background-color: white;
+    background-color: whitesmoke;
     border-top-width: 20px;
     width: 600px;
     height: 400px;
@@ -103,11 +103,11 @@ button:hover {
 }
 
 .temperature{
-    border-top-color: green;
+    border-top-color: limegreen;
 }
 
 .weight{
-    border-top-color: coral;
+    border-top-color: crimson;
 }
 
 .distance{
@@ -139,7 +139,9 @@ legend {
 }
     
 footer {
-    background-color:rgb(240, 234, 245);
-    margin-top: 20px;
-    padding: 50%;
+    background-color:rgb(240, 235, 240);
+    margin: auto ;
+    margin-top: 10px;
+   text-align: center;
+    
 }
